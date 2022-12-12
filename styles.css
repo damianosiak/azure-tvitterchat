@@ -1,0 +1,260 @@
+/* ===========================MAIN-STYLES=========================== */
+html, body{
+	background-color:#403c3c;
+}
+
+
+#root{
+	position: relative;
+	min-height: 100vh;
+}
+
+
+#content{
+	padding-bottom: 2.5rem;
+}
+
+
+.author{
+	position:absolute;
+	bottom:5px;
+	margin:auto;
+	width:100%;
+	text-align:center;
+	color:white;
+	border-top-style:dotted;
+	border-top-width:1px;
+	border-top-color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	opacity:0.33;
+	user-select:none;
+	margin-top:50px;
+}
+
+
+input{
+	text-align:center;
+}
+
+
+.hr-white{
+	border-color:white;
+}
+
+
+.inline-form{
+	display:inline;
+}
+
+
+#transferButton{
+	position:absolute;
+	float:right;
+	top:0px;
+}
+
+
+
+/* =========================LOGIN&REGISTER-PAGE============================= */
+.nav-login-register-card{
+	width:30%;
+	left:35%;
+	background-color:#209cf4;
+	text-align:center;
+	top:25px;
+	padding-bottom:10px;
+	border-color:white;
+}
+
+
+.login-register-card{
+	width:30%;
+	left:35%;
+	text-align:center;
+	background-color:#209cf4;
+	margin-bottom:25px;
+	border-top-color:white;
+	padding-top:10px;
+	margin-top:25px;
+	padding-bottom:25px;
+	border-color:white;
+}
+
+
+.login-register-inputs{
+	width:80%;
+	margin:auto;
+	margin-bottom:25px;
+}
+
+
+.login-register-labels{
+	color:white;
+	font-weight:bold;
+}
+
+
+.login-register-buttons{
+	width:30%;
+	margin-top:10px;
+}
+
+
+
+/* ===========================INDEX-PAGE=========================== */
+.nav-card{
+	width:60%;
+	left:20%;
+	background-color:#209cf4;
+	text-align:center;
+	top:25px;
+	padding-bottom:25px;
+	border-color:white;
+}
+
+
+.nav-buttons{
+	text-align:right;
+	
+}
+
+
+.addpost-card{
+	width:60%;
+	left:20%;
+	top:25px;
+	text-align:center;
+	background-color:#209cf4;
+	border-bottom-color:white;
+	padding-bottom:50px;
+	border-color:white;
+}
+
+
+.textarea-newpost{
+	width:100%;
+	height:75px;
+	resize:none;
+	text-align:center;
+}
+
+
+.addpost-buttons{
+	margin-top:25px;
+	width:15%;
+}
+
+
+.maintvitter-card{
+	width:60%;
+	left:20%;
+	text-align:center;
+	background-color:#209cf4;
+	margin-bottom:50px;
+	border-top-color:white;
+	padding-top:30px;
+	border-color:white;
+}
+
+
+.post-card{
+	width:100%;
+	margin-bottom:50px;
+}
+
+
+.postdate{
+	float:left;
+}
+
+
+.postuser{
+	position:absolute;
+	width:98%;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+.deletepost-button{
+	position:relative;
+	float:right;
+}
+
+
+.likes-dislikes-count{
+	display:inline;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.button-like{
+	border-style:none;
+	outline-style:none;
+	background-color:#f8f4f4;
+}
+
+
+.button-like:hover{
+	background-color:white;
+}
+
+
+.button-dislike{
+	border-style:none;
+	outline-style:none;
+	background-color:#f8f4f4;
+}
+
+
+.button-dislike:hover{
+	background-color:white;
+}
+
+
+
+/* ===========================INDEX-PAGE=========================== */
+.nav-user-card{
+	width:40%;
+	left:30%;
+	background-color:#209cf4;
+	text-align:center;
+	top:25px;
+	padding-bottom:10px;
+	border-color:white;
+}
+
+
+.user-card{
+	width:40%;
+	left:30%;
+	text-align:center;
+	background-color:#209cf4;
+	margin-bottom:25px;
+	border-top-color:white;
+	padding-top:10px;
+	margin-top:25px;
+	padding-bottom:25px;
+	border-color:white;
+}
+
+
+.user-inputs{
+	width:80%;
+	margin:auto;
+	margin-bottom:25px;
+}
+
+
+.user-labels{
+	color:white;
+	font-weight:bold;
+}
+
+
+.user-buttons{
+	width:30%;
+	margin-top:10px;
+}
